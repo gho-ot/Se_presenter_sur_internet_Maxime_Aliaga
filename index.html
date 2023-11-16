@@ -5,6 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Mon CV</title>
+    <style>
+	    body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px; 
+    padding: 10px; 
+    height: 100vh; /* La hauteur de la page est de 100% de la hauteur de la vue (viewport height) */
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+    border-radius: 50%; /* Optionnel : pour une image de profil arrondie */
+    margin-right: 20px;
+}
+
+header div {
+    text-align: left;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+/* Ajout de styles pour la barre de navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Utilisation de la media query pour la mise en colonne de la barre de navigation */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Ajuste la taille et l'espacement des icônes sociaux */
+.social-links img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.back-to-top{
+	text-align: center;
+}
+
+
+/* Applique un style de boîte flexible pour le conteneur des images */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Espace extérieur pour plus de visibilité */
+}
+
+/* Applique un style aux images pour ajuster la taille selon la largeur de l'écran */
+.image-container img {
+    width: 30%; /* Ajustez la largeur selon vos préférences */
+    max-width: 300px; /* Largeur maximale pour éviter la déformation */
+    margin-right: 10px; /* Espacement entre les images */
+    border-radius: 8px; /* Coins arrondis pour un aspect plus esthétique */
+}
+    </style>
 </head>
 <body>
     <header>
