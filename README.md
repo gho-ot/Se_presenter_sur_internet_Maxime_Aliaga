@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Mon CV</title>
+</head>
+<body>
+    <header>
+        <img src="./images/image1.png" alt="Votre Nom">
+        <div>
+            <h1>ALIAGA MAXIME</h1>
+            <p>Student in réseaux and télécommunications </p>
+        </div>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="./html/page_de_garde.html">Home Page</a></li>
+            <li><a href="./html/centre_d_interet.html">My fields of interest</a></li>
+            <li><a href="./html/projet_professionnel.html">Career plans</a></li>
+			<li><a href="./html/bibliographie.html">References</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Welcome to my BIOGRAPHICAL page!</h2>
+	</section>
+	<section>
+        <h2>Tech Enthusiast & Creative Explorer</h2>
+                <p>I am Maxime Aliaga, a student in networks and telecommunications, passionate about creativity, problem-solving, and continuous learning. Outside of my studies, I engage in a range of hobbies, from photography to programming, reflecting my insatiable curiosity and love for artistic expression. You will often find me immersed in exploring new technologies, reading science fiction novels, or honing my culinary skills.</p>
+           
+    </section>
+    
+
+    <section>
+        <h2>Innovator in Action: Maxime Aliaga's Project Portfolio</h2>
+                <p>As a budding professional, I stand out for my communication skills, problem-solving ability, and a constant eagerness to learn. My first project, the creation of this website, attests to my commitment to innovative initiatives that have allowed me to develop valuable transferable skills such as time management, effective collaboration, and adaptability.</p>
+    </section>
+    
+
+    <section>
+        <h2>Crafting Impactful Solutions with Integrity and Creativity</h2>
+				<p>What I appreciate the most is crafting solutions that have a positive impact. My results-oriented approach is evident in achievements like the successful design of this page. My core values include integrity, creativity, and perseverance.</p>
+    </section>
+	<section>
+        <h2>Connect with me </h2>
+				<p>Explore further into my professional journey on <a href="https://stillincontact.com/membre.php?menu=consultermafiche&identifiant=65554d4fc14da" target="_blank">Stillincontact</a>, and feel free to contact me on <a href="https://www.linkedin.com/in/maxime-aliaga-087129236/" target="_blank" >Linkedin</a> to discuss exciting collaborations.</p>
+    </section>    
+	<section>
+		<h2>Thank you for taking the time to get to know me better!</h2>
+	</section>
+	
+	<footer>
+        <!-- Coordonnées de contact -->
+        <div class="contact">
+            <p>Email: Maxie.aliaga@etu.univ-tours.fr</p>
+            <p>Téléphone: 07*******1</p>
+        </div>
+
+        <!-- Liens sociaux -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/maxime-aliaga-087129236/"><img src="./images/icone_linkedin.png" alt="LinkedIn"></a>
+            <a href="https://stillincontact.com/membre.php?menu=consultermafiche&identifiant=65554d4fc14da"><img src="./images/icone_stillincontact.png" alt="Stillincontact"></a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&copy; 2023 Maxime Aliaga. Tous droits réservés.</p>
+        </div>
+
+        <!-- Retour en haut de la page -->
+        <div class="back-to-top">
+            <a href="#top">Retour en haut de la page</a>
+        </div>
+    </footer>
+</body>
+</html>
